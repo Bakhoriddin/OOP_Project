@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>Images/logout.jpg</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>Images/images.png</file>
+        <file>Images/Actions-application-exit-icon.png</file>
+        <file>Images/For Kitchen/1.jpg</file>
+        <file>Images/For Kitchen/2.jpg</file>
+        <file>Images/For Kitchen/3.jpg</file>
+        <file>Images/Furniture/1.jpg</file>
+        <file>Images/Furniture/2.jpg</file>
+        <file>Images/Furniture/3.jpg</file>
+        <file>Images/Techno/1.jpg</file>
+        <file>Images/Techno/2.jpg</file>
+        <file>Images/Techno/3.jpg</file>
+    </qresource>
+</RCC>
