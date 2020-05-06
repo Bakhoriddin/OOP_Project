@@ -124,6 +124,7 @@ void Goods::on_pushButton_clicked()
     s = ui->lineEdit->text();
     n = ui->label_6->text();
     a = s.toDouble() * n.toDouble();
+<<<<<<< HEAD
     if(s.toDouble() > 0) {
     ch->upgradeAmmount(a);
     QMessageBox::about(this, "Success", "You've successfully bought the item");
@@ -131,6 +132,10 @@ void Goods::on_pushButton_clicked()
     else {
         QMessageBox::warning(this, "Error!", "Enter valid ammount of goods which you want to buy!");
     }
+=======
+    ch->upgradeAmmount(a);
+    QMessageBox::about(this, "Success", "You've successfully bought the item");
+>>>>>>> 6862c6ec56efce96c12d7f9c4afacd5296edd64d
     hide();
     ch->show();
 }
